@@ -1,0 +1,29 @@
+{
+  "name": "lordofwar2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredelso/lordofwar2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredelso/lordofwar2/issues"
+  },
+  "homepage": "https://github.com/aredelso/lordofwar2#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.1.0"
+  }
+}
